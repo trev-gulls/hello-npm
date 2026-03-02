@@ -1,6 +1,6 @@
 {
   "name": "@tgulls/hello",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI that prints Hello, npm!",
   "type": "module",
   "bin": {
