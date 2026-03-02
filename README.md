@@ -13,7 +13,7 @@ bunx @tgulls/hello
 Or install globally:
 
 ```sh
-bun install -g @tgulls/hello
+bun add -g @tgulls/hello
 hello
 ```
 
