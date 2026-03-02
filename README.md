@@ -20,7 +20,6 @@ hello
 ## Local Development
 
 ```sh
-bun install
 bun run build
 bun link
 bunx @tgulls/hello
