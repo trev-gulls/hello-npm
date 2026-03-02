@@ -1,0 +1,23 @@
+{
+  "name": "@tgulls/hello",
+  "version": "1.0.0",
+  "description": "A simple CLI that prints Hello, npm!",
+  "type": "module",
+  "bin": {
+    "hello": "./bin/hello.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "build": "bun build ./src/cli.ts --outfile ./bin/hello.js --target node",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "license": "MIT"
+}
